@@ -1,0 +1,35 @@
+h1, h2, h3, h4 {
+  font-family: "Abril Fatface", cursive;
+}
+
+p, .link {
+  font-family: "Lato", sans-serif;
+  letter-spacing: 0.1em;
+  font-size: 1.1em;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #293241;
+}
+nav #logo {
+  width: 40%;
+  height: auto;
+}
+nav .listNavbar {
+  display: flex;
+  align-items: center;
+}
+nav .link {
+  text-decoration: none;
+  padding: 1em;
+  color: #E0FBFC;
+  transition: 0.8s;
+}
+nav .link:hover {
+  background-color: #E0FBFC;
+  color: #293241;
+}
+
+/*# sourceMappingURL=app.css.map */

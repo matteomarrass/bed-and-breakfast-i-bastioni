@@ -1,0 +1,44 @@
+// Variables
+$firstColour: #293241;
+$secondColour: #3D5A80;
+$thirdColour: #98C1D9;
+$fourthColour: #E0FBFC;
+$fifthColour: #EE6C4D;
+$sansSerif: 'Lato', sans-serif;
+$serif: 'Abril Fatface', cursive;
+
+//Universal Style
+h1, h2, h3, h4{
+    font-family: $serif;
+}
+
+p, .link {
+    font-family: $sansSerif;
+    letter-spacing: .1em;
+    font-size: 1.1em;
+}
+
+//Navbar
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: $firstColour;
+    #logo{
+        width: 40%;
+        height: auto;
+    }
+    .listNavbar{
+        display: flex;
+        align-items: center;
+    }
+    .link{
+        text-decoration: none;
+        padding: 1em;
+        color: $fourthColour;
+        transition: .8s;
+    }
+    .link:hover{
+        background-color: $fourthColour;
+        color: $firstColour;
+    }
+}
