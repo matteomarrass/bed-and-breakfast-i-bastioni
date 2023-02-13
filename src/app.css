@@ -25,6 +25,7 @@ nav .link {
   text-decoration: none;
   padding: 1em;
   color: #E0FBFC;
+  border-radius: 0.1em;
   transition: 0.8s;
 }
 nav .link:hover {
