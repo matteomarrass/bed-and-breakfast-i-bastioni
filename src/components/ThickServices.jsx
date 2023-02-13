@@ -4,7 +4,7 @@ import thick from '../img/checked.png'
 function Check(props){
     return(
         <div className="checkService">
-            <img src={thick}/>
+            <img src={thick} alt='thick'/>
             <p>{props.service}</p>
         </div>
     )

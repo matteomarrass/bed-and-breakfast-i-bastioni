@@ -10,15 +10,14 @@ function Footer(){
         <section className="footer">
             <footer>
                 <div className="socialNetwork">
-                  <img src={facebook}/>
-                  <img src={instagram}/>
-                  <img src={pinterest}/>
-                  <img src={tiktok}/>
+                  <img src={facebook} alt='facebook'/>
+                  <img src={instagram} alt='instagram'/>
+                  <img src={pinterest} alt='pinterest'/>
+                  <img src={tiktok} alt='tiktok'/>
                 </div>
                 <div className="address">
                   <h2>Dove ci puoi trovare?</h2>
-                  <p>Piazza Sulis, 20</p>
-                  <p>Alghero (SS) 07041</p>
+                  <p>Piazza Sulis 20, Alghero (SS) 07041</p>
                   <p>Contatti per info e prenotazioni nella sezione apposita.</p>
                 </div>
             </footer>

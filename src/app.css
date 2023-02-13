@@ -35,7 +35,7 @@ nav .link:hover {
 
 .videoShow {
   object-fit: cover;
-  opacity: 0.4;
+  filter: brightness(40%);
 }
 
 .overlay {
@@ -43,6 +43,7 @@ nav .link:hover {
   z-index: 1000;
   top: 30%;
   left: 50%;
+  color: #E0FBFC;
 }
 .overlay h2 {
   font-size: 5em;
@@ -60,10 +61,12 @@ nav .link:hover {
 
 .roomContainer {
   display: flex;
+  margin-bottom: -4px;
 }
 
 .cardRoom_body {
   position: relative;
+  transition: 0.8s;
 }
 .cardRoom_body .descriptionContainer {
   position: absolute;
@@ -71,12 +74,17 @@ nav .link:hover {
   left: 10%;
   z-index: 10000;
   visibility: hidden;
+  color: #E0FBFC;
+  filter: brightness(1.5);
 }
 .cardRoom_body img {
-  width: 100%;
-  height: auto;
+  width: 480px;
+  height: 400px;
   transition: 0.8s;
-  opacity: 0.7;
+}
+
+.cardRoom_body:hover img {
+  filter: brightness(40%);
 }
 
 .cardRoom_body:hover .descriptionContainer {
@@ -127,19 +135,23 @@ nav .link:hover {
   display: block;
 }
 
-.socialNetwork {
+.footer {
+  background-color: #3D5A80;
+  color: #E0FBFC;
+}
+.footer .socialNetwork {
   display: flex;
   justify-content: end;
   padding: 1em;
   float: right;
 }
-.socialNetwork img {
+.footer .socialNetwork img {
+  filter: invert(100%);
   padding: 1em;
   width: 8%;
   height: auto;
 }
-
-.address {
+.footer .address {
   padding: 0.3em;
 }
 

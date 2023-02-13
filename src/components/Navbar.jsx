@@ -10,7 +10,7 @@ function Navbar(){
             <ul className="listNavbar">
                 <NavLink to='/aboutus' className='link'>Chi Siamo</NavLink>
                 <NavLink to='/history' className='link'>Storia della città</NavLink>
-                <NavLink to='/studies' className='link'>Tariffe e prenotazioni</NavLink>
+                <NavLink to='/rates' className='link'>Tariffe e prenotazioni</NavLink>
             </ul>
         </nav>
     );
