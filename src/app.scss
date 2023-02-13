@@ -175,3 +175,20 @@ nav{
 }
 
 //About Us
+
+.groupBio{
+    display: flex;
+    img{
+        width: 100%;
+        height: auto;
+        float: left;
+    }
+    p{
+        text-align: center;
+        font-size: 1.2em;
+        letter-spacing: .1em;
+        line-height: 3em;
+        margin: 1em;
+        padding: .8em;
+    }
+}
