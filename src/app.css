@@ -172,4 +172,20 @@ nav .link:hover {
   padding: 0.8em;
 }
 
+.cityBio {
+  display: flex;
+}
+.cityBio .imagesCity img {
+  width: 800px;
+  height: 700px;
+}
+.cityBio p {
+  text-align: center;
+  font-size: 1.2em;
+  letter-spacing: 0.1em;
+  line-height: 3em;
+  margin: 1em;
+  padding: 0.8em;
+}
+
 /*# sourceMappingURL=app.css.map */

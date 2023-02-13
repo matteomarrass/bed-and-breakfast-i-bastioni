@@ -192,3 +192,21 @@ nav{
         padding: .8em;
     }
 }
+
+//History
+
+.cityBio{
+    display: flex;
+    .imagesCity img{
+        width: 800px;
+        height: 700px;
+    }
+    p{
+      text-align: center;
+      font-size: 1.2em;
+      letter-spacing: .1em;
+      line-height: 3em;
+      margin: 1em;
+      padding: .8em;
+    }
+}
