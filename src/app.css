@@ -33,4 +33,23 @@ nav .link:hover {
   color: #293241;
 }
 
+.videoShow {
+  object-fit: cover;
+  position: absolute;
+  opacity: 0.4;
+}
+
+.overlay {
+  position: absolute;
+  z-index: 1000;
+  top: 30%;
+  left: 50%;
+}
+.overlay h2 {
+  font-size: 5em;
+}
+.overlay p {
+  font-size: 3em;
+}
+
 /*# sourceMappingURL=app.css.map */

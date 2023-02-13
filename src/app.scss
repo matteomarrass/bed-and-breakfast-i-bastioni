@@ -44,4 +44,22 @@ nav{
     }
 }
 
-//SlideShow
+//VideoShow
+.videoShow{
+   object-fit: cover;
+   position: absolute;
+   opacity: .4;
+}
+
+.overlay{
+    position: absolute;
+    z-index: 1000;
+    top: 30%;
+    left: 50%;
+    h2{
+        font-size: 5em;
+    }
+    p{
+        font-size: 3em;
+    }
+}

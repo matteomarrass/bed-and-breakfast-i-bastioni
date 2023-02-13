@@ -1,10 +1,10 @@
 import Navbar from "../components/Navbar";
-import SlideShow from "../components/Slideshow";
+import Video from "../components/Slideshow";
 const Homepage = () => {
     return(
         <section>
             <Navbar />
-            <SlideShow />
+            <Video />
         </section>
     )
 }
