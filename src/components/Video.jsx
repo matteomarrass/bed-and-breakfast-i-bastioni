@@ -1,5 +1,4 @@
 import React from "react";
-import { Link, NavLink } from 'react-router-dom';
 import '../app.css'
 import VideoHomepage from '../img/VideoHomePage.mp4'
 

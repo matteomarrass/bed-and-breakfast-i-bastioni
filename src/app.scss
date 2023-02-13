@@ -12,7 +12,7 @@ h1, h2, h3, h4{
     font-family: $serif;
 }
 
-p, .link {
+p, .link, span {
     font-family: $sansSerif;
     letter-spacing: .1em;
     font-size: 1.1em;
@@ -47,7 +47,6 @@ nav{
 //VideoShow
 .videoShow{
    object-fit: cover;
-   position: absolute;
    opacity: .4;
 }
 
@@ -62,4 +61,102 @@ nav{
     p{
         font-size: 3em;
     }
+}
+
+//Greetings
+.greetings{
+    p{
+        text-align: center;
+        font-size: 1.6em;
+        letter-spacing: .1em;
+        line-height: 7em;
+    }
+}
+
+//Rooms
+.roomContainer{
+    display: flex;
+}
+
+.cardRoom_body{
+    position: relative;
+    .descriptionContainer{
+        position: absolute;
+        top: 30%;
+        left: 10%;
+        z-index: 10000;
+        visibility: hidden;
+    }
+    img{
+        width: 100%;
+        height: auto;
+        transition: .8s;
+        opacity: .7;
+    }
+}
+
+.cardRoom_body:hover .descriptionContainer{
+    visibility: visible;
+}
+
+//Services Offered
+.servicesOffered, .awardsTitle{
+    font-size: 3em;
+    text-align: center;
+    letter-spacing: .1em;
+    margin-top: 2em;
+}
+.titleServices{
+    background-color: $secondColour;
+    color: $fourthColour;
+    padding: 1em;
+}
+
+.serviceGroup{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    color: $fourthColour;
+    img{
+        filter: invert(100%);
+        border-radius: .5em;
+        transition: .8s;
+    }
+    img:hover{
+        background-color: $fifthColour;
+    }
+}
+//Awards
+.awardsWon{
+    background-color: $firstColour;
+    color: $fourthColour;
+    padding: 1em;
+}
+
+.whatWeWon{
+    display: flex;
+    justify-content: space-around;
+    span{
+        font-size: 1.5em;
+        padding: 1em;
+        display: block;
+    }
+}
+
+//Footer
+
+.socialNetwork{
+    display: flex;
+    justify-content: end;
+    padding: 1em;
+    float: right;
+    img{
+        padding: 1em;
+        width: 8%;
+        height: auto;
+    }
+}
+
+.address{
+    padding: .3em;
 }
