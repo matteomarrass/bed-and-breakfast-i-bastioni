@@ -210,3 +210,34 @@ nav{
       padding: .8em;
     }
 }
+
+//Rates
+.rates{
+    text-align: center;
+    padding: 5em;
+}
+.ratesTitle{
+    text-align: center;
+    font-size: 25px;
+}
+.formRates{
+    display: flex;
+    justify-content: space-around;
+    padding: 2em;
+    label, .submit, input, select{
+        padding: .4em;
+        font-family: $sansSerif;
+        font-size: 1.1em;
+    }
+    input{
+        border-radius: .2em;
+        border: 1px solid $secondColour;
+        background-color: $thirdColour;
+    }
+    select{
+        margin-right: .5em;
+        background-color: $thirdColour;
+        border-radius: .2em;
+        border: 1px solid $secondColour;
+    }
+}
