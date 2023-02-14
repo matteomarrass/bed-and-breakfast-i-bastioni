@@ -21,6 +21,9 @@ p, .link, span {
 
 
 //Navbar
+.headerMobile{
+    display: none;
+}
 nav{
     display: flex;
     justify-content: space-between;
@@ -235,9 +238,243 @@ nav{
         background-color: $thirdColour;
     }
     select{
-        margin-right: .5em;
+        margin-bottom: .3em;
         background-color: $thirdColour;
         border-radius: .2em;
         border: 1px solid $secondColour;
     }
+    #submit{
+        transition: .8s;
+    }
+    #submit:hover{
+        background-color: $firstColour;
+        color: $fourthColour;
+        border: 1px solid $fourthColour;
+    }
+}
+
+//BurgerMenu
+.headerMobile{
+    background-color: $firstColour;
+    box-shadow: 1px 1px 5px 0px gray;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+.logoMobile{
+    display: inline-block;
+    color: #fff;
+    font-size: 60px;
+    margin-left: 10px;
+}
+a{
+    text-decoration: none;
+}
+.navMobile{
+
+    ul{
+        list-style: none;
+    }
+    
+}
+
+/* Nav menu */
+.navMobile{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: $firstColour;
+    overflow: hidden;
+
+}
+.menu a{
+    display: block;
+    padding: 30px;
+    color: $firstColour;
+}
+.menu a:hover{
+    background-color: gray;
+}
+.navMobile{
+    max-height: 0;
+    transition: max-height .5s ease-out;
+}
+/* Menu Icon */
+.hamb{
+    cursor: pointer;
+    float: right;
+    padding: 40px 20px;
+}/* Style label tag */
+
+.hamb-line {
+    background: #fff;
+    display: block;
+    height: 2px;
+    position: relative;
+    width: 24px;
+
+} /* Style span tag */
+
+.hamb-line::before,
+.hamb-line::after{
+    background: #fff;
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all .2s ease-out;
+    width: 100%;
+}
+.hamb-line::before{
+    top: 5px;
+}
+.hamb-line::after{
+    top: -5px;
+}
+
+.side-menu {
+    display: none;
+} /* Hide checkbox */
+
+/* Toggle menu icon */
+.side-menu:checked ~ nav{
+    max-height: 100%;
+}
+.side-menu:checked ~ .hamb .hamb-line {
+    background: transparent;
+}
+.side-menu:checked ~ .hamb .hamb-line::before {
+    transform: rotate(-45deg);
+    top:0;
+}
+.side-menu:checked ~ .hamb .hamb-line::after {
+    transform: rotate(45deg);
+    top:0;
+}
+//Error404
+.error{
+    padding: 4em;
+}
+
+//Media queries
+
+@media (min-width: 720px) and (max-width: 1750px) { 
+    .roomContainer{
+        display: block;
+        .cardRoom_body img {
+            width: 100%;
+            height: auto;
+            margin: -4px;
+            transition: 0.8s;
+          }
+      }
+    .groupBio{
+        display: block;
+        img{
+            width: 50%;
+            height: auto;
+        }
+      }
+    .cityBio{
+        display: block;
+    }
+    .imagesCity{
+        text-align: center;
+    }
+    form{
+        display: grid;
+    }
+    }
+
+@media (min-width: 768px) and (max-width: 1000px) {
+    nav #logo{
+        width: 70%;
+        height: auto;
+    }
+    .overlay{
+        font-size: 15px;
+    }
+
+ }
+
+@media (min-width: 320px) and (max-width: 719px) {
+    .headerMobile{
+        display: block;
+        z-index: 100000;
+        position: absolute;
+        .logoMobile{
+            visibility: hidden;
+        }
+    }
+    .navBarDesktop{
+        display: none;
+    }
+    .overlay{
+        top: 9%;
+        left: 6%;
+    }
+    .menu li{
+        font-family: $sansSerif;
+        color: $fourthColour;
+        font-size: 20px;
+        padding: 1em;
+    }
+    video{
+        margin-top: -10px;
+        max-width: 375px;
+    }
+    .greetings{
+        p{
+            text-align: center;
+            font-size: 1.6em;
+            letter-spacing: .1em;
+            line-height: 3em;
+        }
+    
+    }
+    .roomContainer{
+        display: block;
+        .descriptionContainer{
+            color: $firstColour;
+            visibility: visible;
+            filter: none;
+            position: initial;
+        }
+        .cardRoom_body img{
+            max-width: 375px;
+            object-fit: cover;
+        }
+    }
+    .serviceGroup{
+        display: flex;
+        flex-direction: column;
+    }
+    .whatWeWon{
+        flex-direction: column;
+    }
+    .groupBio{
+        display: block;
+    }
+    .descriptionBio, .descriptionCity{
+        p{
+            font-size: 1em;
+        }
+    }
+    .cityBio{
+        display: block;
+        .imagesCity{
+            img{
+                width: 375px;
+                height: auto;
+            }
+        }
+    }
+    .formRates{
+        display: block;
+        form{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
 }

@@ -4,10 +4,12 @@ import Rooms from "../components/Rooms";
 import Check from "../components/ThickServices";
 import Awards from "../components/AwardsWon";
 import Footer from "../components/Footer";
+import BurgerBarMobile from "../components/BurgerBarMobile";
 import '../app.css'
 const Homepage = () => {
     return(
         <section>
+            <BurgerBarMobile />
             <Navbar />
             <Video />
             <div className="greetings">

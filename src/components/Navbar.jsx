@@ -5,7 +5,7 @@ import Logo from '../img/Logo B&B.png'
 
 function Navbar(){
     return(
-        <nav>
+        <nav className="navBarDesktop">
             <Link to='/'><img src={Logo} alt="logo-b&b" id="logo" /></Link>
             <ul className="listNavbar">
                 <NavLink to='/aboutus' className='link'>Chi Siamo</NavLink>

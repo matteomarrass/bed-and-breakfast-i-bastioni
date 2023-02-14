@@ -1,12 +1,14 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import Video from '../components/Video';
-import Rooms from '../components/Rooms'
+import Rooms from '../components/Rooms';
+import BurgerBarMobile from "../components/BurgerBarMobile";
 import Footer from "../components/Footer";
 
 function Rates(){
     return(
         <>
+        <BurgerBarMobile />
         <Navbar />
         <Video />
         <Rooms />

@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../components/Navbar";
-import Video from '../components/Video'
+import Video from '../components/Video';
+import BurgerBarMobile from "../components/BurgerBarMobile";
 import Footer from "../components/Footer";
 import img1 from '../img/Alghero2.jpg';
 import img2 from '../img/Alghero3.jpg'; 
@@ -8,6 +9,7 @@ import img2 from '../img/Alghero3.jpg';
 function History(){
     return(
         <>
+        <BurgerBarMobile />
         <Navbar />
         <Video />
             <div className="greetings">
