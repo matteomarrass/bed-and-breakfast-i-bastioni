@@ -1,5 +1,0 @@
-Paolo Marras was a man who lived in a small coastal town in Italy. He was born and raised in the town and had a deep love for the place. He grew up working in the tourism industry, and as he got older, he realized that he wanted to do more to contribute to the town's economy. He came up with an idea to open a hotel that would not only provide a place for tourists to stay, but would also showcase the town's history and culture.
-
-With this idea in mind, Paolo started to look for a suitable location for his hotel. He finally found an old building that was located right in the heart of the town. The building had been abandoned for many years and was in need of major renovation, but Paolo saw its potential and was determined to bring it back to life.
-
-Over the next several months, Paolo worked tirelessly to renovate the building and transform it into a beautiful hotel. He named it "I Bastioni", which means "The Bastions" in Italian. This name was chosen because the building was located near the ancient walls of the town, and it reflected the hotel's connection to the town's history.
