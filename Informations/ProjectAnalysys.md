@@ -1,7 +1,7 @@
 # Analisi di progetto - b&b I Bastioni
 
-**Nome b&b**: I Bastioni
-**Località**: Alghero (SS)
+**Nome b&b**: I Bastioni  
+**Località**: Alghero (SS)  
 **Zona**: Centro Storico zona Torre dell'Espero Real
 **Budget**: medio
 **Stile**: moderno
