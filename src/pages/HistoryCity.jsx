@@ -16,8 +16,8 @@ function History(){
                 <p>La nostra storia. I nostri profumi.</p>
                 <div className="cityBio">
                     <div className="imagesCity">
-                      <img src={img1}/>
-                      <img src={img2}/>
+                      <img src={img1} alt='imgAlghero'/>
+                      <img src={img2} alt='imgAlghero'/>
                     </div>
                     <div className="descriptionCity">
                     <p>L’anno di fondazione di Alghero non è storicamente certa. Quella più accreditata la fa risalire al 1102 ad opera della famiglia genovese Doria che la popolarono inizialmente con un piccolo gruppo di liguri.</p>

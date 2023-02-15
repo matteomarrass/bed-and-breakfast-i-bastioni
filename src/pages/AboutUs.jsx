@@ -16,7 +16,7 @@ function AboutUs(){
                 <p>Il nostro B&B vanta una storia di passione. Di cultura. Di amore.</p>
                 <p>E noi siamo quì per raccontarvela.</p>
                 <div className="groupBio">
-                    <img src={Founder}/>
+                    <img src={Founder} alt='paoloMarras'/>
                     <div className="descriptionBio">
                         <p>Paolo Marras era un ragazzo nato e cresciuto ad Alghero, in Sardegna. E' sempre cresciuto con un grosso amore per il posto che lo ha cresciuto. Già nelle sue prime esperienze inizia a lavorare nel mondo del turismo e, invecchiando, realizza che avrebbe voluto fare di più per poter contribuire all'economia della sua città. Avrebbe voluto avere un b&b che non dia solo un posto ai turisti dove poter stare, ma che possa anche mostrar loro la sua cultura e storia.</p>
                         <p>Con questa idea nella testa, Paolo inizia a cercare la location perfetta per il suo B&B. Dopo un estenuante ricerca, finalmente trovò una vecchia costruzione localizzata nel cuore della città. E' stata abbandonata da diversi anni e aveva bisogno di diversi rinnovamenti, però Paolo ha visto il suo potenziale ed era pronto a darle nuova vita.</p>
