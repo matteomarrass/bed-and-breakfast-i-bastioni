@@ -42,7 +42,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 
-# B&B I Bastioni (IT)
+# B&B I Bastioni (ENG)
 Hi there, that's my project about B&B I Bastioni located in the wonderful town of Alghero, in Sardinia.
 His phantom owner Paolo Marras wanted to post it on the web to gain more visibility and make more sales! 
 ### The technologies that I used are:
