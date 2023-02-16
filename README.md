@@ -46,7 +46,7 @@ SOFTWARE.
 # B&B I Bastioni (ENG)
 Hi there, that's my project about B&B I Bastioni located in the wonderful town of Alghero, in Sardinia.
 His phantom owner Paolo Marras wanted to post it on the web to gain more visibility and make more sales! 
-*Check out the preview here!* : https://lovely-griffin-48374e.netlify.app/
+*Check out the preview here!* : [B&B I Bastioni](https://lovely-griffin-48374e.netlify.app/)
 ### The technologies that I used are:
 * HTML
 * CSS with preprocessor SASS
