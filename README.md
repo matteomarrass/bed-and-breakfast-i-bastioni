@@ -1,6 +1,7 @@
 # B&B I Bastioni (IT)
 Ciao a tutti, questo è il mio progetto sul B&B I Bastioni della meravigliosa città di Alghero, in Sardegna.
-Il suo fantomatico proprietario Paolo Marras voleva metterlo in mostra nel web per poter avere più visibilità e sopratutto generare più vendite! 
+Il suo fantomatico proprietario Paolo Marras voleva metterlo in mostra nel web per poter avere più visibilità e sopratutto generare più vendite!  
+*Vedi quì l'anteprima!* : https://lovely-griffin-48374e.netlify.app/
 ### Le tecnologie che ho usato sono:
 * HTML
 * CSS con l'ausilio di preprocessore SASS
@@ -45,6 +46,7 @@ SOFTWARE.
 # B&B I Bastioni (ENG)
 Hi there, that's my project about B&B I Bastioni located in the wonderful town of Alghero, in Sardinia.
 His phantom owner Paolo Marras wanted to post it on the web to gain more visibility and make more sales! 
+*Check out the preview here!* : https://lovely-griffin-48374e.netlify.app/
 ### The technologies that I used are:
 * HTML
 * CSS with preprocessor SASS
